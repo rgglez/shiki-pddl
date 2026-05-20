@@ -1,0 +1,15 @@
+This package distributes a TextMate grammar for PDDL adapted from the
+`vscode-pddl` extension by Jan Dolejsi, licensed under the MIT License:
+
+  https://github.com/jan-dolejsi/vscode-pddl
+
+The original grammar JSON was modified only to:
+
+  - normalize the `name` field to lowercase ("pddl")
+  - add an `aliases` array (["PDDL"])
+  - set `fileTypes` to ["pddl"]
+
+so that fenced code blocks tagged ```pddl match correctly under Shiki /
+Expressive Code.
+
+Original copyright (c) Jan Dolejsi, retained under MIT.

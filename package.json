@@ -1,0 +1,58 @@
+{
+  "name": "@rgglez/shiki-pddl",
+  "version": "0.1.0",
+  "description": "PDDL (Planning Domain Definition Language) TextMate grammar for Shiki, Expressive Code and Astro.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./grammar.json": "./src/pddl.tmLanguage.json"
+  },
+  "files": [
+    "dist",
+    "src/pddl.tmLanguage.json",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "keywords": [
+    "pddl",
+    "planning",
+    "shiki",
+    "expressive-code",
+    "astro",
+    "astro-paper",
+    "textmate",
+    "syntax-highlighting",
+    "markdown",
+    "mdx"
+  ],
+  "author": "Rodolfo González González",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgglez/shiki-pddl.git"
+  },
+  "homepage": "https://github.com/rgglez/shiki-pddl#readme",
+  "bugs": "https://github.com/rgglez/shiki-pddl/issues",
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "shiki": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "shiki": {
+      "optional": true
+    }
+  }
+}
