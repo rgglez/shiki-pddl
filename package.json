@@ -1,6 +1,6 @@
 {
   "name": "@rgglez/shiki-pddl",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "PDDL (Planning Domain Definition Language) TextMate grammar for Shiki, Expressive Code and Astro.",
   "type": "module",
   "main": "./dist/index.js",
